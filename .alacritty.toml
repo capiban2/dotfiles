@@ -1,0 +1,25 @@
+# themes from https://github.com/alacritty/alacritty-theme
+
+# import = ["/Users/mischa/.config/alacritty/themes/themes/gruvbox_dark.toml"]
+import = ["~/.config/alacritty/themes/themes/github_dark_tritanopia.toml"]
+# not bad at all
+# import = ["~/.config/alacritty/themes/themes/everforest_light.toml"]
+#
+# import = ["~/.config/alacritty/themes/themes/nord_light.toml"]
+#
+# import = ["~/.config/alacritty/themes/themes/github_light_tritanopia.toml"]
+[font]
+size = 9
+
+[font.normal]
+family = "monospace"
+
+[window]
+decorations = "None"
+position = { x = 1, y = 1}
+startup_mode = "Fullscreen"
+[window.padding]
+x = 7
+y = 0
+
+
